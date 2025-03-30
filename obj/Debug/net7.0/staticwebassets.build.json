@@ -1,0 +1,5511 @@
+{
+  "Version": 1,
+  "Hash": "f9TGHVZPEBxYgr+CJJGUWy5hL/aimfHfmyPa4L6mvfc=",
+  "Source": "CreatingQueryBuilderSample",
+  "BasePath": "_content/CreatingQueryBuilderSample",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CreatingQueryBuilderSample\\wwwroot",
+      "Source": "CreatingQueryBuilderSample",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\",
+      "BasePath": "_content/CreatingQueryBuilderSample",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.buttons\\23.1.39\\staticwebassets\\scripts\\sf-floating-action-button.min.js",
+      "SourceId": "Syncfusion.Blazor.Buttons",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.buttons\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Buttons",
+      "RelativePath": "scripts/sf-floating-action-button.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ny8j1kc79z",
+      "Integrity": "H6VZhlHiuN5JyJaxcpWRG4nGGDPm/MJ0SVxuao9Fh98=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.buttons\\23.1.39\\staticwebassets\\scripts\\sf-floating-action-button.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.buttons\\23.1.39\\staticwebassets\\scripts\\sf-speeddial.min.js",
+      "SourceId": "Syncfusion.Blazor.Buttons",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.buttons\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Buttons",
+      "RelativePath": "scripts/sf-speeddial.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x9sekijp10",
+      "Integrity": "pRKurarAnB9keb7PTH2lkdOtvP5Nkysaemi6eYjjY3s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.buttons\\23.1.39\\staticwebassets\\scripts\\sf-speeddial.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.calendars\\23.1.39\\staticwebassets\\scripts\\sf-calendar.min.js",
+      "SourceId": "Syncfusion.Blazor.Calendars",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.calendars\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Calendars",
+      "RelativePath": "scripts/sf-calendar.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9a6cu7i8fl",
+      "Integrity": "L9vHApCdOWqZy9CiK427wL7CmtQPz+lfIJ3MZeWeXnY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.calendars\\23.1.39\\staticwebassets\\scripts\\sf-calendar.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.calendars\\23.1.39\\staticwebassets\\scripts\\sf-datepicker.min.js",
+      "SourceId": "Syncfusion.Blazor.Calendars",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.calendars\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Calendars",
+      "RelativePath": "scripts/sf-datepicker.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1b0122omdy",
+      "Integrity": "zUHBO/ubpAJur7hSZ7TxrYvcsC56KGjFimjjc0PiXj8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.calendars\\23.1.39\\staticwebassets\\scripts\\sf-datepicker.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.calendars\\23.1.39\\staticwebassets\\scripts\\sf-daterangepicker.min.js",
+      "SourceId": "Syncfusion.Blazor.Calendars",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.calendars\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Calendars",
+      "RelativePath": "scripts/sf-daterangepicker.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "su0u5fn2v1",
+      "Integrity": "1BDfhwUCQrx4GCisI4QuB6nphSTUmAUJBD3oP8F6brc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.calendars\\23.1.39\\staticwebassets\\scripts\\sf-daterangepicker.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.calendars\\23.1.39\\staticwebassets\\scripts\\sf-timepicker.min.js",
+      "SourceId": "Syncfusion.Blazor.Calendars",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.calendars\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Calendars",
+      "RelativePath": "scripts/sf-timepicker.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nwswt20gi3",
+      "Integrity": "V98lFUouIxFTWsWs5+y0FNASAh/Io42a0TOB179Dy9o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.calendars\\23.1.39\\staticwebassets\\scripts\\sf-timepicker.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\compression.min.js",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/compression.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rpbq3ai0vv",
+      "Integrity": "zyhkKPma1CUd4OVG5ZLhVf65v6+D9aL3BHpxOifg3XI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\compression.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\excelexport.min.js",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/excelexport.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rwpc23dn22",
+      "Integrity": "K8yxJd6JclogVgV02Njw5e1k6IC/mTlqAKN34GlrrHo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\excelexport.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\fileutils.min.js",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/fileutils.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vppq8s01zn",
+      "Integrity": "TcN4Ib4lVraRk6ZHrKA8voIXMwYFj1SU2pBLJNK/cP4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\fileutils.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\pdfexport.min.js",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/pdfexport.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nkuj8g31o1",
+      "Integrity": "eSbzlxEtEvC8YGyLpPrPbeR+/pg5mm8eAhh2l3TfqfM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\pdfexport.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\popup.min.js",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/popup.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p63b6ki17m",
+      "Integrity": "HyWNjl5F4OTJ4QZAYR6efvPPVZBCdXMIRTUFXscDK+0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\popup.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\popupsbase.min.js",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/popupsbase.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xluxdjmoci",
+      "Integrity": "yy3L84AHgm6lNaVEkNhu+vI87uRtc4SMQvVcyfZGGRs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\popupsbase.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\sf-svg-export.min.js",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/sf-svg-export.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g6sneijsu6",
+      "Integrity": "mIv1MUcDN1KYzKaCLmjWeglDtTeBEz4fyIYt2ut/HHc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\sf-svg-export.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\svgbase.min.js",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/svgbase.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nwypkk5u4l",
+      "Integrity": "CU/JWWrPgj2Ayk4hYnNYOwXFz8iPdF6llFj0KLytuys=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\svgbase.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\syncfusion-blazor.min.js",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/syncfusion-blazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9rhu917prm",
+      "Integrity": "m02YcO14xrXClgkEgEDry9Ib6UTLjYum8f1mipadEjc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\syncfusion-blazor.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\syncfusion-blazor-base.min.js",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/syncfusion-blazor-base.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vqa4rekfeu",
+      "Integrity": "mf1aU3vTNr7i3aZ85/qmy08ujLlRtOzCt52MsybcLxM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\syncfusion-blazor-base.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\syncfusion-blazor-extended.min.js",
+      "SourceId": "Syncfusion.Blazor.Core",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Core",
+      "RelativePath": "scripts/syncfusion-blazor-extended.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1ialesk5d3",
+      "Integrity": "l5mi+tILT7GLBCJncWZhkiwM+DSJ2h/U5L7aDjp2WtI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\syncfusion-blazor-extended.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.data\\23.1.39\\staticwebassets\\scripts\\data.min.js",
+      "SourceId": "Syncfusion.Blazor.Data",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.data\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Data",
+      "RelativePath": "scripts/data.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xsewdh60d7",
+      "Integrity": "D3wTxm/y2Niuw5o04Ou33QE4VH11SW5bi80xyX2GIy8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.data\\23.1.39\\staticwebassets\\scripts\\data.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\scripts\\sf-dropdownlist.min.js",
+      "SourceId": "Syncfusion.Blazor.DropDowns",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.DropDowns",
+      "RelativePath": "scripts/sf-dropdownlist.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lcct58qn8n",
+      "Integrity": "O3dS0fQU8/eJaH5k34g4r90j00gwRus7efbVn8n1/6M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\scripts\\sf-dropdownlist.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\scripts\\sf-listbox.min.js",
+      "SourceId": "Syncfusion.Blazor.DropDowns",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.DropDowns",
+      "RelativePath": "scripts/sf-listbox.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uqduxh60er",
+      "Integrity": "6lnzq0Gn/orU6X2l0ZsUQyiVVkNNGgCmOgDR+hZ9kDI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\scripts\\sf-listbox.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\scripts\\sf-mention.min.js",
+      "SourceId": "Syncfusion.Blazor.DropDowns",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.DropDowns",
+      "RelativePath": "scripts/sf-mention.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dz9wx93uhh",
+      "Integrity": "iS/y7RvSqwRyR29sswEVeDZldCXIV7W8oykRQi8xJ0o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\scripts\\sf-mention.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\scripts\\sf-multiselect.min.js",
+      "SourceId": "Syncfusion.Blazor.DropDowns",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.DropDowns",
+      "RelativePath": "scripts/sf-multiselect.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bdokvg71n1",
+      "Integrity": "odiJe5YNfXSSe1WYHycJFbCpWCtm2QMVg9CYK3w3zZo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\scripts\\sf-multiselect.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\scripts\\sortable.min.js",
+      "SourceId": "Syncfusion.Blazor.DropDowns",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.DropDowns",
+      "RelativePath": "scripts/sortable.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9ewabvb7me",
+      "Integrity": "fwadcux8TOG+J/0gr81pmhLf6n6NLMHlT3vZrjscrQg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\scripts\\sortable.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.grid\\23.1.39\\staticwebassets\\scripts\\sf-grid.min.js",
+      "SourceId": "Syncfusion.Blazor.Grid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.grid\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Grid",
+      "RelativePath": "scripts/sf-grid.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dwdxu09hp3",
+      "Integrity": "Y404Hr2rgDuNjIEFaA6Wjupj+wGoD/ILWu3amo6vWS8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.grid\\23.1.39\\staticwebassets\\scripts\\sf-grid.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-colorpicker.min.js",
+      "SourceId": "Syncfusion.Blazor.Inputs",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Inputs",
+      "RelativePath": "scripts/sf-colorpicker.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dk3avudjp5",
+      "Integrity": "jXfQsb/LHWUdfxI7csn6JJY/KS7y31WsX9tHkZgK2x4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-colorpicker.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-maskedtextbox.min.js",
+      "SourceId": "Syncfusion.Blazor.Inputs",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Inputs",
+      "RelativePath": "scripts/sf-maskedtextbox.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ze747orl2b",
+      "Integrity": "dUqaRGjDUVD1iHh+E3mlKhb09I+Ht8VsiLEgzhGgV4I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-maskedtextbox.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-numerictextbox.min.js",
+      "SourceId": "Syncfusion.Blazor.Inputs",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Inputs",
+      "RelativePath": "scripts/sf-numerictextbox.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ssn7co2yie",
+      "Integrity": "PADFNmT14+tTZN2fhkC0zdO8PWxUerLQOypX4mymQ1c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-numerictextbox.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-rating.min.js",
+      "SourceId": "Syncfusion.Blazor.Inputs",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Inputs",
+      "RelativePath": "scripts/sf-rating.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6z7pah32zw",
+      "Integrity": "otITOMC86wpZ/xgiUPYzxZ5CIJEQWspXO35oowNG+sE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-rating.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-signature.min.js",
+      "SourceId": "Syncfusion.Blazor.Inputs",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Inputs",
+      "RelativePath": "scripts/sf-signature.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3mwjpbko39",
+      "Integrity": "2zAuRKf2uaRUGRlIO+lBDbYwlmfggiNkl5N445MpeUI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-signature.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-slider.min.js",
+      "SourceId": "Syncfusion.Blazor.Inputs",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Inputs",
+      "RelativePath": "scripts/sf-slider.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "f17ce7ihyl",
+      "Integrity": "XacunrzPHOv6wXiTgGdlOUx8IgXwVRs1ycq6/oNg3UQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-slider.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-textbox.min.js",
+      "SourceId": "Syncfusion.Blazor.Inputs",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Inputs",
+      "RelativePath": "scripts/sf-textbox.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "umc3toraaj",
+      "Integrity": "StDbH37CXe7/qZ3nnusfct5vYMsJg4oA05xpQmo3rFI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-textbox.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-uploader.min.js",
+      "SourceId": "Syncfusion.Blazor.Inputs",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Inputs",
+      "RelativePath": "scripts/sf-uploader.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gy3cgof6x5",
+      "Integrity": "CH+e826VpotcuFVlfZX9kXpiw/AbgxZrp69yHSLp0Mk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-uploader.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.lists\\23.1.39\\staticwebassets\\scripts\\sf-listview.min.js",
+      "SourceId": "Syncfusion.Blazor.Lists",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.lists\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Lists",
+      "RelativePath": "scripts/sf-listview.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "thfcpx215f",
+      "Integrity": "j+mJtim2dWT6L/KoOyfuQi+ES05vU8f7leV0mM4wBs0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.lists\\23.1.39\\staticwebassets\\scripts\\sf-listview.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\navigationsbase.min.js",
+      "SourceId": "Syncfusion.Blazor.Navigations",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Navigations",
+      "RelativePath": "scripts/navigationsbase.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t93ub9zppu",
+      "Integrity": "EYszcxoGXQxiNlKNsi8xP00akwpmiGYY5g1Km3XOfco=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\navigationsbase.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-accordion.min.js",
+      "SourceId": "Syncfusion.Blazor.Navigations",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Navigations",
+      "RelativePath": "scripts/sf-accordion.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jjxnj7d473",
+      "Integrity": "j0iyTmL0ovg4VDQ7TmCCmQrtyMLEl0m2ICtF0o9NsRk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-accordion.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-breadcrumb.min.js",
+      "SourceId": "Syncfusion.Blazor.Navigations",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Navigations",
+      "RelativePath": "scripts/sf-breadcrumb.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1yai77tpst",
+      "Integrity": "FwVsrc741eSkpE9nVBqFJsd1yaCPkhQTYwbNMnBLLzc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-breadcrumb.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-carousel.min.js",
+      "SourceId": "Syncfusion.Blazor.Navigations",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Navigations",
+      "RelativePath": "scripts/sf-carousel.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kpo9w19u4d",
+      "Integrity": "WLkg1bVeldYQCS5KHFOmBEyi4q4QYslXAwGvTfG+Nsw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-carousel.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-contextmenu.min.js",
+      "SourceId": "Syncfusion.Blazor.Navigations",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Navigations",
+      "RelativePath": "scripts/sf-contextmenu.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yh7l4u4nck",
+      "Integrity": "yiprBoYzAizkltaSdrEXo/YXaOZCflfL9Q6keXfj780=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-contextmenu.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-menu.min.js",
+      "SourceId": "Syncfusion.Blazor.Navigations",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Navigations",
+      "RelativePath": "scripts/sf-menu.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v0m4kknsib",
+      "Integrity": "gePP3cfZiymZc3kxoFyZgiw88osLYex1L1mYULeqL8k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-menu.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-pager.min.js",
+      "SourceId": "Syncfusion.Blazor.Navigations",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Navigations",
+      "RelativePath": "scripts/sf-pager.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wsi798d5cg",
+      "Integrity": "8DOY0pzCd0VTwDSHUm7Te8sSPnZ/vAiyl97BS+2qLKo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-pager.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-sidebar.min.js",
+      "SourceId": "Syncfusion.Blazor.Navigations",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Navigations",
+      "RelativePath": "scripts/sf-sidebar.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dy0uf37mn3",
+      "Integrity": "q1SEW+Caiwm1MswfXhE/aOIR0tn/9+SxQfnxHQ9LE3o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-sidebar.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-tab.min.js",
+      "SourceId": "Syncfusion.Blazor.Navigations",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Navigations",
+      "RelativePath": "scripts/sf-tab.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ulh8xqxqyd",
+      "Integrity": "3vvtJDMymdSyFGUJSkwH4yohTut0eW7GgVqxF+41cRM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-tab.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-toolbar.min.js",
+      "SourceId": "Syncfusion.Blazor.Navigations",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Navigations",
+      "RelativePath": "scripts/sf-toolbar.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "19d32mzj62",
+      "Integrity": "1a+bTp7rIWwuwbtHX4mIUMHBQHjoo6J/KUnNNJBxA6E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-toolbar.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-treeview.min.js",
+      "SourceId": "Syncfusion.Blazor.Navigations",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Navigations",
+      "RelativePath": "scripts/sf-treeview.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pf2t6lmud7",
+      "Integrity": "lcvN+B7kLJVQyQBuLZmaZD5DdmRRjmxYRd/VJbdlpWQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-treeview.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.notifications\\23.1.39\\staticwebassets\\scripts\\sf-toast.min.js",
+      "SourceId": "Syncfusion.Blazor.Notifications",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.notifications\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Notifications",
+      "RelativePath": "scripts/sf-toast.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oqq7g3jl1l",
+      "Integrity": "IO8dwnw85yBDIBgMBnzgls8qqsXPP5KvkhWMTPnWOCM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.notifications\\23.1.39\\staticwebassets\\scripts\\sf-toast.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.popups\\23.1.39\\staticwebassets\\scripts\\sf-dialog.min.js",
+      "SourceId": "Syncfusion.Blazor.Popups",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.popups\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Popups",
+      "RelativePath": "scripts/sf-dialog.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qqkbpb40b4",
+      "Integrity": "wkJ1Fj5DQBIlghzl+QGLQr3MOqGiUmi6XE1X4runBFk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.popups\\23.1.39\\staticwebassets\\scripts\\sf-dialog.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.popups\\23.1.39\\staticwebassets\\scripts\\sf-tooltip.min.js",
+      "SourceId": "Syncfusion.Blazor.Popups",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.popups\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Popups",
+      "RelativePath": "scripts/sf-tooltip.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7ffyqc2unv",
+      "Integrity": "bdNgCQGxav7zEKEkh4jwwCaz4rgGAGIjjcWe0SFTD6M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.popups\\23.1.39\\staticwebassets\\scripts\\sf-tooltip.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.spinner\\23.1.39\\staticwebassets\\scripts\\sf-spinner.min.js",
+      "SourceId": "Syncfusion.Blazor.Spinner",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.spinner\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Spinner",
+      "RelativePath": "scripts/sf-spinner.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cu5m0dk8n6",
+      "Integrity": "7KQnNpvUQ6y6cYHL7GyaWuQ5QGat/02sM1JaOtBVR7c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.spinner\\23.1.39\\staticwebassets\\scripts\\sf-spinner.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.spinner\\23.1.39\\staticwebassets\\scripts\\spinner.min.js",
+      "SourceId": "Syncfusion.Blazor.Spinner",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.spinner\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Spinner",
+      "RelativePath": "scripts/spinner.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "egaqkor5u2",
+      "Integrity": "bpvmcdc69a4cjRTS8dvaMaoL4/Urblt7M8C7oIAruUs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.spinner\\23.1.39\\staticwebassets\\scripts\\spinner.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.splitbuttons\\23.1.39\\staticwebassets\\scripts\\sf-drop-down-button.min.js",
+      "SourceId": "Syncfusion.Blazor.SplitButtons",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.splitbuttons\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.SplitButtons",
+      "RelativePath": "scripts/sf-drop-down-button.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "22izswzoqz",
+      "Integrity": "KpK216nxEDkdDnTRsHGipvGB9mCIJIP+QlJ2el1O2gk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.splitbuttons\\23.1.39\\staticwebassets\\scripts\\sf-drop-down-button.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.splitbuttons\\23.1.39\\staticwebassets\\scripts\\splitbuttonsbase.min.js",
+      "SourceId": "Syncfusion.Blazor.SplitButtons",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.splitbuttons\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.SplitButtons",
+      "RelativePath": "scripts/splitbuttonsbase.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a4tpjekl3z",
+      "Integrity": "VjVK2bm58ljugSHXR8eRaAHxsFp6MPVPYbCtakvee7w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.splitbuttons\\23.1.39\\staticwebassets\\scripts\\splitbuttonsbase.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\bootstrap.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b5ol0tpkgp",
+      "Integrity": "f5Et2QHrbWQBFB9SCYpD3XB/nr3NhkAmnRAMyzYvWeA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\bootstrap4.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "bootstrap4.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "15r8nbirdw",
+      "Integrity": "ZZ5lGljK61opTSkLPNMLpKYJzLOEMCFfwqc6A9DKahQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\bootstrap4.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\bootstrap5.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "bootstrap5.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "llxzl7lr8e",
+      "Integrity": "J6qEbKiKYW2ZUPjKzWgASNSDBPeFPsBj/Kwg3wltPnw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\bootstrap5.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\bootstrap5-dark.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "bootstrap5-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ainskbizsl",
+      "Integrity": "Aubrjcl2LgAk1HEHC2jXyYoQ49m5zq29Zg4GdAmWCZk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\bootstrap5-dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\bootstrap-dark.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "bootstrap-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z6qquxlcoq",
+      "Integrity": "5abFomTwr++iD7qqlME07v4KwirW/dFnPSI/0LPYm2g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\bootstrap-dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\fabric.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "fabric.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "siglnqj4t2",
+      "Integrity": "HGrifDtrpY2+9YWzzKkFaLmh6jYAwLgKHHnzFn0/vcU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\fabric.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\fabric-dark.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "fabric-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "etf3e2m428",
+      "Integrity": "0uhU9t4j3WRT8r3pe3Q1hyEkLCCOyMYF/x1tgcYiaYc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\fabric-dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\fluent.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "fluent.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8rdfxtchvn",
+      "Integrity": "nLcQAZRwZTiHQ7xBGrXvPDKtnBWvesQYYRO5rvYrhgQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\fluent.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\fluent-dark.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "fluent-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pdmbfknd5v",
+      "Integrity": "88rNlkd1VeDCSks2I64Pjn4+VWFaZAnBOnGmhKtlWpQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\fluent-dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\highcontrast.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "highcontrast.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ds7lxpo9o4",
+      "Integrity": "U2DHVqYABUfIqm+XoLGooICVEumV72pHC0bn+XE4PRU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\highcontrast.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\material.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "material.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x7gkv6tujz",
+      "Integrity": "HTbIjptTTnh73gLW/mpb7sTRWPY0zK0dwE39gYuy5/k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\material.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\material3.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "material3.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6ypmy3mvy9",
+      "Integrity": "3ppCx+tNhuFW/yNMQjT7CPWDOrmuqkTCjAg0VI1Ohu8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\material3.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\material3-dark.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "material3-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dlmnbhhkuz",
+      "Integrity": "IbGGKoyw/JQMYWT9MdgmvKYILM1GZTjujdoeig7cV9s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\material3-dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\material-dark.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "material-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "85ns4s05tn",
+      "Integrity": "LBj1SoO/uPJkqdSv0C2WcKjmGDsn22vQk9PN4yLr2NI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\material-dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\tailwind.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "tailwind.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "thdilks6lq",
+      "Integrity": "0VlUpCeRn3lCYS3DuvR3BHaX6/t+Zm5Q8HgQpFJiC8w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\tailwind.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\tailwind-dark.css",
+      "SourceId": "Syncfusion.Blazor.Themes",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.Themes",
+      "RelativePath": "tailwind-dark.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hm596jdpwk",
+      "Integrity": "R3ltb2aORBa3VG3VMq0/tEVdvQui3tjV985xeu+KNWs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\tailwind-dark.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.treegrid\\23.1.39\\staticwebassets\\scripts\\sf-treegrid.min.js",
+      "SourceId": "Syncfusion.Blazor.TreeGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.treegrid\\23.1.39\\staticwebassets\\",
+      "BasePath": "_content/Syncfusion.Blazor.TreeGrid",
+      "RelativePath": "scripts/sf-treegrid.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jworsstzxm",
+      "Integrity": "LS107bY3DDKzbz5gUJMQZBKD1g0ow0ijpbCRqfjGrqU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.treegrid\\23.1.39\\staticwebassets\\scripts\\sf-treegrid.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\obj\\Debug\\net7.0\\scopedcss\\bundle\\CreatingQueryBuilderSample.styles.css",
+      "SourceId": "CreatingQueryBuilderSample",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/CreatingQueryBuilderSample",
+      "RelativePath": "CreatingQueryBuilderSample#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "ev0xf1v9ql",
+      "Integrity": "VjpcNufLaz+GNdRqOBUwzl1Q5f2DwiUUKSqVvfdc4bc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\obj\\Debug\\net7.0\\scopedcss\\bundle\\CreatingQueryBuilderSample.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CreatingQueryBuilderSample.bundle.scp.css",
+      "SourceId": "CreatingQueryBuilderSample",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/CreatingQueryBuilderSample",
+      "RelativePath": "CreatingQueryBuilderSample#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "ev0xf1v9ql",
+      "Integrity": "VjpcNufLaz+GNdRqOBUwzl1Q5f2DwiUUKSqVvfdc4bc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CreatingQueryBuilderSample.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "SourceId": "CreatingQueryBuilderSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\",
+      "BasePath": "_content/CreatingQueryBuilderSample",
+      "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "CreatingQueryBuilderSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\",
+      "BasePath": "_content/CreatingQueryBuilderSample",
+      "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "SourceId": "CreatingQueryBuilderSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\",
+      "BasePath": "_content/CreatingQueryBuilderSample",
+      "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cmapd0fi15",
+      "Integrity": "BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "SourceId": "CreatingQueryBuilderSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\",
+      "BasePath": "_content/CreatingQueryBuilderSample",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.eot",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0uw8dim9nl",
+      "Integrity": "OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "SourceId": "CreatingQueryBuilderSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\",
+      "BasePath": "_content/CreatingQueryBuilderSample",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wk8x8xm0ah",
+      "Integrity": "sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "SourceId": "CreatingQueryBuilderSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\",
+      "BasePath": "_content/CreatingQueryBuilderSample",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sjnzgf7e1h",
+      "Integrity": "+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "SourceId": "CreatingQueryBuilderSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\",
+      "BasePath": "_content/CreatingQueryBuilderSample",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ll5grcv8wv",
+      "Integrity": "p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "SourceId": "CreatingQueryBuilderSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\",
+      "BasePath": "_content/CreatingQueryBuilderSample",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h4d0pazwgy",
+      "Integrity": "cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "CreatingQueryBuilderSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\",
+      "BasePath": "_content/CreatingQueryBuilderSample",
+      "RelativePath": "css/open-iconic/FONT-LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "48tmkg660f",
+      "Integrity": "jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "SourceId": "CreatingQueryBuilderSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\",
+      "BasePath": "_content/CreatingQueryBuilderSample",
+      "RelativePath": "css/open-iconic/ICON-LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4dwjve0o0b",
+      "Integrity": "aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\README.md",
+      "SourceId": "CreatingQueryBuilderSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\",
+      "BasePath": "_content/CreatingQueryBuilderSample",
+      "RelativePath": "css/open-iconic/README#[.{fingerprint}]?.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5bzwdl5l6x",
+      "Integrity": "waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\site.css",
+      "SourceId": "CreatingQueryBuilderSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\",
+      "BasePath": "_content/CreatingQueryBuilderSample",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zh9s866nx2",
+      "Integrity": "Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\favicon.png",
+      "SourceId": "CreatingQueryBuilderSample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\",
+      "BasePath": "_content/CreatingQueryBuilderSample",
+      "RelativePath": "favicon#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ifv42okdf2",
+      "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "_content/Syncfusion.Blazor.Buttons/scripts/sf-floating-action-button.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.buttons\\23.1.39\\staticwebassets\\scripts\\sf-floating-action-button.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"H6VZhlHiuN5JyJaxcpWRG4nGGDPm/MJ0SVxuao9Fh98=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-H6VZhlHiuN5JyJaxcpWRG4nGGDPm/MJ0SVxuao9Fh98="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Buttons/scripts/sf-speeddial.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.buttons\\23.1.39\\staticwebassets\\scripts\\sf-speeddial.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pRKurarAnB9keb7PTH2lkdOtvP5Nkysaemi6eYjjY3s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pRKurarAnB9keb7PTH2lkdOtvP5Nkysaemi6eYjjY3s="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Calendars/scripts/sf-calendar.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.calendars\\23.1.39\\staticwebassets\\scripts\\sf-calendar.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1627"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L9vHApCdOWqZy9CiK427wL7CmtQPz+lfIJ3MZeWeXnY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L9vHApCdOWqZy9CiK427wL7CmtQPz+lfIJ3MZeWeXnY="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Calendars/scripts/sf-datepicker.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.calendars\\23.1.39\\staticwebassets\\scripts\\sf-datepicker.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33243"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zUHBO/ubpAJur7hSZ7TxrYvcsC56KGjFimjjc0PiXj8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zUHBO/ubpAJur7hSZ7TxrYvcsC56KGjFimjjc0PiXj8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Calendars/scripts/sf-daterangepicker.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.calendars\\23.1.39\\staticwebassets\\scripts\\sf-daterangepicker.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14207"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1BDfhwUCQrx4GCisI4QuB6nphSTUmAUJBD3oP8F6brc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1BDfhwUCQrx4GCisI4QuB6nphSTUmAUJBD3oP8F6brc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Calendars/scripts/sf-timepicker.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.calendars\\23.1.39\\staticwebassets\\scripts\\sf-timepicker.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30773"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V98lFUouIxFTWsWs5+y0FNASAh/Io42a0TOB179Dy9o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V98lFUouIxFTWsWs5+y0FNASAh/Io42a0TOB179Dy9o="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/compression.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\compression.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42799"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zyhkKPma1CUd4OVG5ZLhVf65v6+D9aL3BHpxOifg3XI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zyhkKPma1CUd4OVG5ZLhVf65v6+D9aL3BHpxOifg3XI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/excelexport.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\excelexport.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K8yxJd6JclogVgV02Njw5e1k6IC/mTlqAKN34GlrrHo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K8yxJd6JclogVgV02Njw5e1k6IC/mTlqAKN34GlrrHo="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/fileutils.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\fileutils.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18305"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TcN4Ib4lVraRk6ZHrKA8voIXMwYFj1SU2pBLJNK/cP4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TcN4Ib4lVraRk6ZHrKA8voIXMwYFj1SU2pBLJNK/cP4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/pdfexport.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\pdfexport.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "473808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eSbzlxEtEvC8YGyLpPrPbeR+/pg5mm8eAhh2l3TfqfM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eSbzlxEtEvC8YGyLpPrPbeR+/pg5mm8eAhh2l3TfqfM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/popup.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\popup.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HyWNjl5F4OTJ4QZAYR6efvPPVZBCdXMIRTUFXscDK+0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HyWNjl5F4OTJ4QZAYR6efvPPVZBCdXMIRTUFXscDK+0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/popupsbase.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\popupsbase.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13489"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yy3L84AHgm6lNaVEkNhu+vI87uRtc4SMQvVcyfZGGRs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yy3L84AHgm6lNaVEkNhu+vI87uRtc4SMQvVcyfZGGRs="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/sf-svg-export.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\sf-svg-export.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11413"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mIv1MUcDN1KYzKaCLmjWeglDtTeBEz4fyIYt2ut/HHc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mIv1MUcDN1KYzKaCLmjWeglDtTeBEz4fyIYt2ut/HHc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/svgbase.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\svgbase.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47786"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CU/JWWrPgj2Ayk4hYnNYOwXFz8iPdF6llFj0KLytuys=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CU/JWWrPgj2Ayk4hYnNYOwXFz8iPdF6llFj0KLytuys="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\syncfusion-blazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3767285"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m02YcO14xrXClgkEgEDry9Ib6UTLjYum8f1mipadEjc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m02YcO14xrXClgkEgEDry9Ib6UTLjYum8f1mipadEjc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor-base.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\syncfusion-blazor-base.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "304025"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mf1aU3vTNr7i3aZ85/qmy08ujLlRtOzCt52MsybcLxM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mf1aU3vTNr7i3aZ85/qmy08ujLlRtOzCt52MsybcLxM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor-extended.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.core\\23.1.39\\staticwebassets\\scripts\\syncfusion-blazor-extended.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38542"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l5mi+tILT7GLBCJncWZhkiwM+DSJ2h/U5L7aDjp2WtI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l5mi+tILT7GLBCJncWZhkiwM+DSJ2h/U5L7aDjp2WtI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Data/scripts/data.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.data\\23.1.39\\staticwebassets\\scripts\\data.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84080"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D3wTxm/y2Niuw5o04Ou33QE4VH11SW5bi80xyX2GIy8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D3wTxm/y2Niuw5o04Ou33QE4VH11SW5bi80xyX2GIy8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.DropDowns/scripts/sf-dropdownlist.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\scripts\\sf-dropdownlist.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32255"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O3dS0fQU8/eJaH5k34g4r90j00gwRus7efbVn8n1/6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O3dS0fQU8/eJaH5k34g4r90j00gwRus7efbVn8n1/6M="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.DropDowns/scripts/sf-listbox.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\scripts\\sf-listbox.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6lnzq0Gn/orU6X2l0ZsUQyiVVkNNGgCmOgDR+hZ9kDI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6lnzq0Gn/orU6X2l0ZsUQyiVVkNNGgCmOgDR+hZ9kDI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.DropDowns/scripts/sf-mention.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\scripts\\sf-mention.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18121"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iS/y7RvSqwRyR29sswEVeDZldCXIV7W8oykRQi8xJ0o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iS/y7RvSqwRyR29sswEVeDZldCXIV7W8oykRQi8xJ0o="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.DropDowns/scripts/sf-multiselect.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\scripts\\sf-multiselect.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16866"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"odiJe5YNfXSSe1WYHycJFbCpWCtm2QMVg9CYK3w3zZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-odiJe5YNfXSSe1WYHycJFbCpWCtm2QMVg9CYK3w3zZo="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.DropDowns/scripts/sortable.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.39\\staticwebassets\\scripts\\sortable.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10392"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fwadcux8TOG+J/0gr81pmhLf6n6NLMHlT3vZrjscrQg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fwadcux8TOG+J/0gr81pmhLf6n6NLMHlT3vZrjscrQg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Grid/scripts/sf-grid.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.grid\\23.1.39\\staticwebassets\\scripts\\sf-grid.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "244640"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y404Hr2rgDuNjIEFaA6Wjupj+wGoD/ILWu3amo6vWS8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y404Hr2rgDuNjIEFaA6Wjupj+wGoD/ILWu3amo6vWS8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Inputs/scripts/sf-colorpicker.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-colorpicker.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jXfQsb/LHWUdfxI7csn6JJY/KS7y31WsX9tHkZgK2x4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jXfQsb/LHWUdfxI7csn6JJY/KS7y31WsX9tHkZgK2x4="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Inputs/scripts/sf-maskedtextbox.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-maskedtextbox.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8944"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dUqaRGjDUVD1iHh+E3mlKhb09I+Ht8VsiLEgzhGgV4I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dUqaRGjDUVD1iHh+E3mlKhb09I+Ht8VsiLEgzhGgV4I="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Inputs/scripts/sf-numerictextbox.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-numerictextbox.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "11883"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PADFNmT14+tTZN2fhkC0zdO8PWxUerLQOypX4mymQ1c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PADFNmT14+tTZN2fhkC0zdO8PWxUerLQOypX4mymQ1c="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Inputs/scripts/sf-rating.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-rating.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"otITOMC86wpZ/xgiUPYzxZ5CIJEQWspXO35oowNG+sE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-otITOMC86wpZ/xgiUPYzxZ5CIJEQWspXO35oowNG+sE="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Inputs/scripts/sf-signature.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-signature.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23361"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2zAuRKf2uaRUGRlIO+lBDbYwlmfggiNkl5N445MpeUI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2zAuRKf2uaRUGRlIO+lBDbYwlmfggiNkl5N445MpeUI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Inputs/scripts/sf-slider.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-slider.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35060"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XacunrzPHOv6wXiTgGdlOUx8IgXwVRs1ycq6/oNg3UQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XacunrzPHOv6wXiTgGdlOUx8IgXwVRs1ycq6/oNg3UQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Inputs/scripts/sf-textbox.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-textbox.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2646"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"StDbH37CXe7/qZ3nnusfct5vYMsJg4oA05xpQmo3rFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-StDbH37CXe7/qZ3nnusfct5vYMsJg4oA05xpQmo3rFI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Inputs/scripts/sf-uploader.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.39\\staticwebassets\\scripts\\sf-uploader.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CH+e826VpotcuFVlfZX9kXpiw/AbgxZrp69yHSLp0Mk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CH+e826VpotcuFVlfZX9kXpiw/AbgxZrp69yHSLp0Mk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Lists/scripts/sf-listview.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.lists\\23.1.39\\staticwebassets\\scripts\\sf-listview.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25573"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j+mJtim2dWT6L/KoOyfuQi+ES05vU8f7leV0mM4wBs0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j+mJtim2dWT6L/KoOyfuQi+ES05vU8f7leV0mM4wBs0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Navigations/scripts/navigationsbase.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\navigationsbase.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19963"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EYszcxoGXQxiNlKNsi8xP00akwpmiGYY5g1Km3XOfco=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EYszcxoGXQxiNlKNsi8xP00akwpmiGYY5g1Km3XOfco="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Navigations/scripts/sf-accordion.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-accordion.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12164"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j0iyTmL0ovg4VDQ7TmCCmQrtyMLEl0m2ICtF0o9NsRk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j0iyTmL0ovg4VDQ7TmCCmQrtyMLEl0m2ICtF0o9NsRk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Navigations/scripts/sf-breadcrumb.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-breadcrumb.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FwVsrc741eSkpE9nVBqFJsd1yaCPkhQTYwbNMnBLLzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FwVsrc741eSkpE9nVBqFJsd1yaCPkhQTYwbNMnBLLzc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Navigations/scripts/sf-carousel.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-carousel.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WLkg1bVeldYQCS5KHFOmBEyi4q4QYslXAwGvTfG+Nsw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WLkg1bVeldYQCS5KHFOmBEyi4q4QYslXAwGvTfG+Nsw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Navigations/scripts/sf-contextmenu.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-contextmenu.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yiprBoYzAizkltaSdrEXo/YXaOZCflfL9Q6keXfj780=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yiprBoYzAizkltaSdrEXo/YXaOZCflfL9Q6keXfj780="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Navigations/scripts/sf-menu.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-menu.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12426"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gePP3cfZiymZc3kxoFyZgiw88osLYex1L1mYULeqL8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gePP3cfZiymZc3kxoFyZgiw88osLYex1L1mYULeqL8k="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Navigations/scripts/sf-pager.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-pager.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7096"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8DOY0pzCd0VTwDSHUm7Te8sSPnZ/vAiyl97BS+2qLKo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8DOY0pzCd0VTwDSHUm7Te8sSPnZ/vAiyl97BS+2qLKo="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Navigations/scripts/sf-sidebar.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-sidebar.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"q1SEW+Caiwm1MswfXhE/aOIR0tn/9+SxQfnxHQ9LE3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-q1SEW+Caiwm1MswfXhE/aOIR0tn/9+SxQfnxHQ9LE3o="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Navigations/scripts/sf-tab.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-tab.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32917"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3vvtJDMymdSyFGUJSkwH4yohTut0eW7GgVqxF+41cRM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3vvtJDMymdSyFGUJSkwH4yohTut0eW7GgVqxF+41cRM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Navigations/scripts/sf-toolbar.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-toolbar.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38060"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1a+bTp7rIWwuwbtHX4mIUMHBQHjoo6J/KUnNNJBxA6E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1a+bTp7rIWwuwbtHX4mIUMHBQHjoo6J/KUnNNJBxA6E="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Navigations/scripts/sf-treeview.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.39\\staticwebassets\\scripts\\sf-treeview.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46127"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lcvN+B7kLJVQyQBuLZmaZD5DdmRRjmxYRd/VJbdlpWQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lcvN+B7kLJVQyQBuLZmaZD5DdmRRjmxYRd/VJbdlpWQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Notifications/scripts/sf-toast.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.notifications\\23.1.39\\staticwebassets\\scripts\\sf-toast.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7243"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IO8dwnw85yBDIBgMBnzgls8qqsXPP5KvkhWMTPnWOCM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IO8dwnw85yBDIBgMBnzgls8qqsXPP5KvkhWMTPnWOCM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Popups/scripts/sf-dialog.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.popups\\23.1.39\\staticwebassets\\scripts\\sf-dialog.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22802"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wkJ1Fj5DQBIlghzl+QGLQr3MOqGiUmi6XE1X4runBFk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wkJ1Fj5DQBIlghzl+QGLQr3MOqGiUmi6XE1X4runBFk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Popups/scripts/sf-tooltip.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.popups\\23.1.39\\staticwebassets\\scripts\\sf-tooltip.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30400"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bdNgCQGxav7zEKEkh4jwwCaz4rgGAGIjjcWe0SFTD6M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bdNgCQGxav7zEKEkh4jwwCaz4rgGAGIjjcWe0SFTD6M="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Spinner/scripts/sf-spinner.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.spinner\\23.1.39\\staticwebassets\\scripts\\sf-spinner.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "889"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7KQnNpvUQ6y6cYHL7GyaWuQ5QGat/02sM1JaOtBVR7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7KQnNpvUQ6y6cYHL7GyaWuQ5QGat/02sM1JaOtBVR7c="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Spinner/scripts/spinner.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.spinner\\23.1.39\\staticwebassets\\scripts\\spinner.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10683"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bpvmcdc69a4cjRTS8dvaMaoL4/Urblt7M8C7oIAruUs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bpvmcdc69a4cjRTS8dvaMaoL4/Urblt7M8C7oIAruUs="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.SplitButtons/scripts/sf-drop-down-button.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.splitbuttons\\23.1.39\\staticwebassets\\scripts\\sf-drop-down-button.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7511"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KpK216nxEDkdDnTRsHGipvGB9mCIJIP+QlJ2el1O2gk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KpK216nxEDkdDnTRsHGipvGB9mCIJIP+QlJ2el1O2gk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.SplitButtons/scripts/splitbuttonsbase.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.splitbuttons\\23.1.39\\staticwebassets\\scripts\\splitbuttonsbase.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3674"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VjVK2bm58ljugSHXR8eRaAHxsFp6MPVPYbCtakvee7w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VjVK2bm58ljugSHXR8eRaAHxsFp6MPVPYbCtakvee7w="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Themes/bootstrap.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2755804"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"f5Et2QHrbWQBFB9SCYpD3XB/nr3NhkAmnRAMyzYvWeA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:07:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-f5Et2QHrbWQBFB9SCYpD3XB/nr3NhkAmnRAMyzYvWeA="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Themes/bootstrap4.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\bootstrap4.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2808529"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZZ5lGljK61opTSkLPNMLpKYJzLOEMCFfwqc6A9DKahQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:07:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZZ5lGljK61opTSkLPNMLpKYJzLOEMCFfwqc6A9DKahQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Themes/bootstrap5.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\bootstrap5.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2803850"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J6qEbKiKYW2ZUPjKzWgASNSDBPeFPsBj/Kwg3wltPnw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:07:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J6qEbKiKYW2ZUPjKzWgASNSDBPeFPsBj/Kwg3wltPnw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Themes/bootstrap5-dark.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\bootstrap5-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2803810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Aubrjcl2LgAk1HEHC2jXyYoQ49m5zq29Zg4GdAmWCZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:07:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Aubrjcl2LgAk1HEHC2jXyYoQ49m5zq29Zg4GdAmWCZk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Themes/bootstrap-dark.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\bootstrap-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2770795"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5abFomTwr++iD7qqlME07v4KwirW/dFnPSI/0LPYm2g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:07:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5abFomTwr++iD7qqlME07v4KwirW/dFnPSI/0LPYm2g="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Themes/fabric.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\fabric.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2656521"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HGrifDtrpY2+9YWzzKkFaLmh6jYAwLgKHHnzFn0/vcU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:07:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HGrifDtrpY2+9YWzzKkFaLmh6jYAwLgKHHnzFn0/vcU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Themes/fabric-dark.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\fabric-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2709579"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0uhU9t4j3WRT8r3pe3Q1hyEkLCCOyMYF/x1tgcYiaYc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:07:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0uhU9t4j3WRT8r3pe3Q1hyEkLCCOyMYF/x1tgcYiaYc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Themes/fluent.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\fluent.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2738342"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nLcQAZRwZTiHQ7xBGrXvPDKtnBWvesQYYRO5rvYrhgQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:07:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nLcQAZRwZTiHQ7xBGrXvPDKtnBWvesQYYRO5rvYrhgQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Themes/fluent-dark.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\fluent-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2739998"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"88rNlkd1VeDCSks2I64Pjn4+VWFaZAnBOnGmhKtlWpQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:07:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-88rNlkd1VeDCSks2I64Pjn4+VWFaZAnBOnGmhKtlWpQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Themes/highcontrast.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\highcontrast.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2670421"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U2DHVqYABUfIqm+XoLGooICVEumV72pHC0bn+XE4PRU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:07:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U2DHVqYABUfIqm+XoLGooICVEumV72pHC0bn+XE4PRU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Themes/material.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\material.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3367027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HTbIjptTTnh73gLW/mpb7sTRWPY0zK0dwE39gYuy5/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:07:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HTbIjptTTnh73gLW/mpb7sTRWPY0zK0dwE39gYuy5/k="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Themes/material3.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\material3.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3407163"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3ppCx+tNhuFW/yNMQjT7CPWDOrmuqkTCjAg0VI1Ohu8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:07:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3ppCx+tNhuFW/yNMQjT7CPWDOrmuqkTCjAg0VI1Ohu8="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Themes/material3-dark.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\material3-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3405782"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IbGGKoyw/JQMYWT9MdgmvKYILM1GZTjujdoeig7cV9s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:07:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IbGGKoyw/JQMYWT9MdgmvKYILM1GZTjujdoeig7cV9s="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Themes/material-dark.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\material-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3418702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LBj1SoO/uPJkqdSv0C2WcKjmGDsn22vQk9PN4yLr2NI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:07:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LBj1SoO/uPJkqdSv0C2WcKjmGDsn22vQk9PN4yLr2NI="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Themes/tailwind.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\tailwind.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2697591"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0VlUpCeRn3lCYS3DuvR3BHaX6/t+Zm5Q8HgQpFJiC8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:07:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0VlUpCeRn3lCYS3DuvR3BHaX6/t+Zm5Q8HgQpFJiC8w="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.Themes/tailwind-dark.css",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.39\\staticwebassets\\tailwind-dark.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2696660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R3ltb2aORBa3VG3VMq0/tEVdvQui3tjV985xeu+KNWs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:07:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R3ltb2aORBa3VG3VMq0/tEVdvQui3tjV985xeu+KNWs="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Syncfusion.Blazor.TreeGrid/scripts/sf-treegrid.min.js",
+      "AssetFile": "C:\\Users\\User\\.nuget\\packages\\syncfusion.blazor.treegrid\\23.1.39\\staticwebassets\\scripts\\sf-treegrid.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25565"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LS107bY3DDKzbz5gUJMQZBKD1g0ow0ijpbCRqfjGrqU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Oct 2023 10:09:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LS107bY3DDKzbz5gUJMQZBKD1g0ow0ijpbCRqfjGrqU="
+        }
+      ]
+    },
+    {
+      "Route": "CreatingQueryBuilderSample.bundle.scp.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CreatingQueryBuilderSample.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VjpcNufLaz+GNdRqOBUwzl1Q5f2DwiUUKSqVvfdc4bc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VjpcNufLaz+GNdRqOBUwzl1Q5f2DwiUUKSqVvfdc4bc="
+        }
+      ]
+    },
+    {
+      "Route": "CreatingQueryBuilderSample.ev0xf1v9ql.bundle.scp.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\CreatingQueryBuilderSample.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VjpcNufLaz+GNdRqOBUwzl1Q5f2DwiUUKSqVvfdc4bc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ev0xf1v9ql"
+        },
+        {
+          "Name": "label",
+          "Value": "CreatingQueryBuilderSample.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VjpcNufLaz+GNdRqOBUwzl1Q5f2DwiUUKSqVvfdc4bc="
+        }
+      ]
+    },
+    {
+      "Route": "CreatingQueryBuilderSample.ev0xf1v9ql.styles.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\obj\\Debug\\net7.0\\scopedcss\\bundle\\CreatingQueryBuilderSample.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VjpcNufLaz+GNdRqOBUwzl1Q5f2DwiUUKSqVvfdc4bc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ev0xf1v9ql"
+        },
+        {
+          "Name": "label",
+          "Value": "CreatingQueryBuilderSample.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VjpcNufLaz+GNdRqOBUwzl1Q5f2DwiUUKSqVvfdc4bc="
+        }
+      ]
+    },
+    {
+      "Route": "CreatingQueryBuilderSample.styles.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\obj\\Debug\\net7.0\\scopedcss\\bundle\\CreatingQueryBuilderSample.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3043"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VjpcNufLaz+GNdRqOBUwzl1Q5f2DwiUUKSqVvfdc4bc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VjpcNufLaz+GNdRqOBUwzl1Q5f2DwiUUKSqVvfdc4bc="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cmapd0fi15"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.0uw8dim9nl.eot",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0uw8dim9nl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.eot"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.eot",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.h4d0pazwgy.woff",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h4d0pazwgy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.woff"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.ll5grcv8wv.ttf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ll5grcv8wv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.otf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sjnzgf7e1h"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.svg",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.ttf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wk8x8xm0ah"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.woff",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/FONT-LICENSE",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/FONT-LICENSE.48tmkg660f",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "48tmkg660f"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/FONT-LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/ICON-LICENSE",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/ICON-LICENSE.4dwjve0o0b",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4dwjve0o0b"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/ICON-LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/README.5bzwdl5l6x.md",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5bzwdl5l6x"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/README.md"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/README.md",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\open-iconic\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-waukoLqsiIAw/nXpsKkTHnhImmcPijcBEd2lzqzJNN0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.zh9s866nx2.css",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2978"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zh9s866nx2"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fx+c1youNLgejKLBM3S2fD6fcDOSv/D7tNQKm5gws6U="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ifv42okdf2.png",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ifv42okdf2"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.png",
+      "AssetFile": "C:\\Users\\User\\Desktop\\New folder\\New folder\\create-a-query-builder-ui-component-in-a-blazor-server-application\\wwwroot\\favicon.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 30 Mar 2025 04:15:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    }
+  ]
+}

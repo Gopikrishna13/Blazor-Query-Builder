@@ -1,6 +1,6 @@
 ﻿@page "/"
 
-<SfQueryBuilder TValue="EmployeeDetails">
+<SfQueryBuilder TValue="EmployeeDetails" @ref="queryBuilder">
     <QueryBuilderRule Condition="and" Rules="Rules"></QueryBuilderRule>
     <QueryBuilderColumns>
         <QueryBuilderColumn Field="HireDate" Label="Hire Date" Type="ColumnType.Date" Format="MM-yyyy-dd"></QueryBuilderColumn>
@@ -9,21 +9,212 @@
     </QueryBuilderColumns>
 </SfQueryBuilder>
 
+<button @onclick="ApplyFilter">Apply Filter</button>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Employee ID</th>
+            <th>First Name</th>
+            <th>Title</th>
+            <th>Hire Date</th>
+            <th>Country</th>
+            <th>City</th>
+            <th>Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in FilteredEmployees)
+        {
+            <tr>
+                <td>@employee.EmployeeID</td>
+                <td>@employee.FirstName</td>
+                <td>@employee.Title</td>
+                <td>@employee.HireDate.ToString("MM-yyyy-dd")</td>
+                <td>@employee.Country</td>
+                <td>@employee.City</td>
+                <td>@employee.Salary.ToString("C2")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
 @code {
+    SfQueryBuilder<EmployeeDetails> queryBuilder;
+    List<EmployeeDetails> Employees = new List<EmployeeDetails>()
+    {
+        new EmployeeDetails { EmployeeID = 1, FirstName = "John", Title = "Manager", HireDate = new DateTime(2024, 3, 4), Country = "USA", City = "New York", Salary = 30 },
+        new EmployeeDetails { EmployeeID = 2, FirstName = "Alice", Title = "Developer", HireDate = new DateTime(2023, 5, 10), Country = "Canada", City = "Toronto", Salary = 20 },
+        new EmployeeDetails { EmployeeID = 3, FirstName = "Bob", Title = "Designer", HireDate = new DateTime(2024, 3, 4), Country = "UK", City = "London", Salary = 25 },
+        new EmployeeDetails { EmployeeID = 4, FirstName = "Emma", Title = "Analyst", HireDate = new DateTime(2024, 1, 15), Country = "USA", City = "Chicago", Salary = 28 }
+    };
+    List<EmployeeDetails> FilteredEmployees = new List<EmployeeDetails>();
+
     List<RuleModel> Rules = new List<RuleModel>()
     {
-        new RuleModel { Field="HireDate", Label="HireDate", Type="Date", Operator="equal", Value = new DateTime(DateTime.Now.Year,DateTime.Now.Month,4) },
-        new RuleModel { Field="Salary", Label="Salary",  Type="Number", Operator="greaterthan", Value = 23 }
+       // new RuleModel { Field="HireDate", Label="Hire Date", Type="Date", Operator="equal", Value = new DateTime(2024, 3, 4) },
+        new RuleModel { Field="Salary", Label="Salary", Type="Number", Operator="greaterthan", Value = 23 }
     };
+
+    protected override void OnInitialized()
+    {
+        FilteredEmployees = Employees.ToList();
+        base.OnInitialized();
+    }
+
     public class EmployeeDetails
     {
         public int EmployeeID { get; set; }
         public string FirstName { get; set; }
-        public bool TitleOfCourtesy { get; set; }
         public string Title { get; set; }
         public DateTime HireDate { get; set; }
         public string Country { get; set; }
         public string City { get; set; }
         public int Salary { get; set; }
     }
+
+    private void ApplyFilter()
+    {
+        var currentRules = queryBuilder.GetRules();
+        Console.WriteLine($"Current Rules: {System.Text.Json.JsonSerializer.Serialize(currentRules)}");
+
+        if (currentRules == null)
+        {
+            FilteredEmployees = Employees.ToList();
+            StateHasChanged();
+            return;
+        }
+
+        FilteredEmployees = FilterEmployees(currentRules).ToList();
+        StateHasChanged();
+    }
+
+    private IEnumerable<EmployeeDetails> FilterEmployees(RuleModel rules)
+    {
+        if (rules.Rules == null || !rules.Rules.Any())
+        {
+            return Employees;
+        }
+
+        IEnumerable<EmployeeDetails> result = Employees;
+
+        if (rules.Condition == "and")
+        {
+            foreach (var rule in rules.Rules)
+            {
+                result = ApplyRule(result, rule);
+            }
+        }
+        else // "or" condition
+        {
+            var orResults = new List<EmployeeDetails>();
+            foreach (var rule in rules.Rules)
+            {
+                orResults.AddRange(ApplyRule(Employees, rule));
+            }
+            result = orResults.Distinct();
+        }
+
+        return result;
+    }
+
+    private IEnumerable<EmployeeDetails> ApplyRule(IEnumerable<EmployeeDetails> employees, RuleModel rule)
+    {
+        // Handle nested rules
+        if (rule.Rules != null && rule.Rules.Any())
+        {
+            return FilterEmployees(rule);
+        }
+
+        // Handle leaf rules
+        switch (rule.Field?.ToLower())
+        {
+            case "hiredate":
+                if (rule.Value is DateTime hireDate || DateTime.TryParse(rule.Value?.ToString(), out hireDate))
+                {
+                    return employees.Where(e => CompareValues(e.HireDate, hireDate, rule.Operator));
+                }
+                break;
+
+            case "salary":
+                if (int.TryParse(rule.Value?.ToString(), out int salary))
+                {
+                    return employees.Where(e => CompareValues(e.Salary, salary, rule.Operator));
+                }
+                break;
+
+            case "firstname":
+                return employees.Where(e => CompareValues(e.FirstName, rule.Value?.ToString(), rule.Operator));
+
+            case "country":
+                return employees.Where(e => CompareValues(e.Country, rule.Value?.ToString(), rule.Operator));
+
+            case "city":
+                return employees.Where(e => CompareValues(e.City, rule.Value?.ToString(), rule.Operator));
+        }
+
+        return employees;
+    }
+
+    private bool CompareValues<T>(T fieldValue, T filterValue, string operation) where T : IComparable
+    {
+        if (filterValue == null) return true;
+
+        return operation?.ToLower() switch
+        {
+            "equal" => fieldValue.CompareTo(filterValue) == 0,
+            "notequal" => fieldValue.CompareTo(filterValue) != 0,
+            "greaterthan" => fieldValue.CompareTo(filterValue) > 0,
+            "greaterthanorequal" => fieldValue.CompareTo(filterValue) >= 0,
+            "lessthan" => fieldValue.CompareTo(filterValue) < 0,
+            "lessthanorequal" => fieldValue.CompareTo(filterValue) <= 0,
+            "contains" => fieldValue.ToString().Contains(filterValue.ToString(), StringComparison.OrdinalIgnoreCase),
+            "startswith" => fieldValue.ToString().StartsWith(filterValue.ToString(), StringComparison.OrdinalIgnoreCase),
+            "endswith" => fieldValue.ToString().EndsWith(filterValue.ToString(), StringComparison.OrdinalIgnoreCase),
+            _ => true // Default to no filtering if operator is unknown
+        };
+    }
 }
+
+
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+        font-family: Arial, sans-serif;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+
+    th {
+        background-color: #007BFF;
+        color: white;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    tr:hover {
+        background-color: #ddd;
+    }
+
+    button {
+        margin-top: 10px;
+        padding: 8px 12px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    button:hover {
+        background-color: #218838;
+    }
+</style>

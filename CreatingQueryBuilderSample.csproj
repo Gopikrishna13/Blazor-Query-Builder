@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Syncfusion.Blazor.QueryBuilder" Version="23.1.39" />
     <PackageReference Include="Syncfusion.Blazor.Themes" Version="23.1.39" />
+    <PackageReference Include="Syncfusion.Blazor.TreeGrid" Version="23.1.39" />
   </ItemGroup>
 
 </Project>

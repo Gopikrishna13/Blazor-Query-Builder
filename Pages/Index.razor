@@ -1,4 +1,8 @@
 ﻿@page "/"
+@using CreatingQueryBuilderSample.Data
+@using CreatingQueryBuilderSample.Models
+@using Microsoft.EntityFrameworkCore
+@inject ApplicationDbContext DbContext
 
 <SfQueryBuilder TValue="EmployeeDetails" @ref="queryBuilder">
     <QueryBuilderRule Condition="and" Rules="Rules"></QueryBuilderRule>
@@ -41,51 +45,39 @@
 
 @code {
     SfQueryBuilder<EmployeeDetails> queryBuilder;
-    List<EmployeeDetails> Employees = new List<EmployeeDetails>()
-    {
-        new EmployeeDetails { EmployeeID = 1, FirstName = "John", Title = "Manager", HireDate = new DateTime(2024, 3, 4), Country = "USA", City = "New York", Salary = 30 },
-        new EmployeeDetails { EmployeeID = 2, FirstName = "Alice", Title = "Developer", HireDate = new DateTime(2023, 5, 10), Country = "Canada", City = "Toronto", Salary = 20 },
-        new EmployeeDetails { EmployeeID = 3, FirstName = "Bob", Title = "Designer", HireDate = new DateTime(2024, 3, 4), Country = "UK", City = "London", Salary = 25 },
-        new EmployeeDetails { EmployeeID = 4, FirstName = "Emma", Title = "Analyst", HireDate = new DateTime(2024, 1, 15), Country = "USA", City = "Chicago", Salary = 28 }
-    };
+    List<EmployeeDetails> Employees = new List<EmployeeDetails>();
     List<EmployeeDetails> FilteredEmployees = new List<EmployeeDetails>();
 
-    List<RuleModel> Rules = new List<RuleModel>()
+    List<RuleModel> Rules = new List<RuleModel>
     {
-       // new RuleModel { Field="HireDate", Label="Hire Date", Type="Date", Operator="equal", Value = new DateTime(2024, 3, 4) },
-        new RuleModel { Field="Salary", Label="Salary", Type="Number", Operator="greaterthan", Value = 23 }
+        new RuleModel { Field="Salary", Label="Salary", Type="Number", Operator="greaterthan", Value = 23000 }
     };
 
-    protected override void OnInitialized()
+    protected override async Task OnInitializedAsync()
     {
-        FilteredEmployees = Employees.ToList();
-        base.OnInitialized();
-    }
-
-    public class EmployeeDetails
-    {
-        public int EmployeeID { get; set; }
-        public string FirstName { get; set; }
-        public string Title { get; set; }
-        public DateTime HireDate { get; set; }
-        public string Country { get; set; }
-        public string City { get; set; }
-        public int Salary { get; set; }
+        try
+        {
+            Employees = await DbContext.Employees.ToListAsync(); 
+            FilteredEmployees = Employees.ToList();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching employees: {ex.Message}");
+        }
     }
 
     private void ApplyFilter()
     {
         var currentRules = queryBuilder.GetRules();
-        Console.WriteLine($"Current Rules: {System.Text.Json.JsonSerializer.Serialize(currentRules)}");
 
         if (currentRules == null)
         {
             FilteredEmployees = Employees.ToList();
-            StateHasChanged();
-            return;
         }
-
-        FilteredEmployees = FilterEmployees(currentRules).ToList();
+        else
+        {
+            FilteredEmployees = FilterEmployees(currentRules).ToList();
+        }
         StateHasChanged();
     }
 
@@ -105,7 +97,7 @@
                 result = ApplyRule(result, rule);
             }
         }
-        else // "or" condition
+        else
         {
             var orResults = new List<EmployeeDetails>();
             foreach (var rule in rules.Rules)
@@ -120,13 +112,11 @@
 
     private IEnumerable<EmployeeDetails> ApplyRule(IEnumerable<EmployeeDetails> employees, RuleModel rule)
     {
-        // Handle nested rules
         if (rule.Rules != null && rule.Rules.Any())
         {
             return FilterEmployees(rule);
         }
 
-        // Handle leaf rules
         switch (rule.Field?.ToLower())
         {
             case "hiredate":
@@ -137,7 +127,7 @@
                 break;
 
             case "salary":
-                if (int.TryParse(rule.Value?.ToString(), out int salary))
+                if (decimal.TryParse(rule.Value?.ToString(), out decimal salary))
                 {
                     return employees.Where(e => CompareValues(e.Salary, salary, rule.Operator));
                 }
@@ -171,11 +161,10 @@
             "contains" => fieldValue.ToString().Contains(filterValue.ToString(), StringComparison.OrdinalIgnoreCase),
             "startswith" => fieldValue.ToString().StartsWith(filterValue.ToString(), StringComparison.OrdinalIgnoreCase),
             "endswith" => fieldValue.ToString().EndsWith(filterValue.ToString(), StringComparison.OrdinalIgnoreCase),
-            _ => true // Default to no filtering if operator is unknown
+            _ => true
         };
     }
 }
-
 
 <style>
     table {
@@ -214,7 +203,7 @@
         border-radius: 5px;
     }
 
-    button:hover {
-        background-color: #218838;
-    }
+        button:hover {
+            background-color: #218838;
+        }
 </style>

@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CreatingQueryBuilderSample.ev0xf1v9ql.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VjpcNufLaz\u002BGNdRqOBUwzl1Q5f2DwiUUKSqVvfdc4bc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3043"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VjpcNufLaz\u002BGNdRqOBUwzl1Q5f2DwiUUKSqVvfdc4bc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 30 Mar 2025 04:15:33 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3043"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VjpcNufLaz\u002BGNdRqOBUwzl1Q5f2DwiUUKSqVvfdc4bc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 01 Apr 2025 06:24:43 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CreatingQueryBuilderSample/CreatingQueryBuilderSample.ev0xf1v9ql.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\CreatingQueryBuilderSample.ev0xf1v9ql.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ev0xf1v9ql"},{"Name":"integrity","Value":"sha256-VjpcNufLaz\u002BGNdRqOBUwzl1Q5f2DwiUUKSqVvfdc4bc="},{"Name":"label","Value":"_content/CreatingQueryBuilderSample/CreatingQueryBuilderSample.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3043"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VjpcNufLaz\u002BGNdRqOBUwzl1Q5f2DwiUUKSqVvfdc4bc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 30 Mar 2025 04:15:33 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3043"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VjpcNufLaz\u002BGNdRqOBUwzl1Q5f2DwiUUKSqVvfdc4bc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 01 Apr 2025 06:24:43 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CreatingQueryBuilderSample/css/bootstrap/bootstrap.min.6gzpyzhau4.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap\bootstrap.min.css'))</AssetFile>

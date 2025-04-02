@@ -3,6 +3,7 @@
 @using CreatingQueryBuilderSample.Models
 @using Microsoft.EntityFrameworkCore
 @inject ApplicationDbContext DbContext
+@inject IJSRuntime JS
 
 <SfQueryBuilder TValue="EmployeeDetails" @ref="queryBuilder">
     <QueryBuilderRule Condition="and" Rules="Rules"></QueryBuilderRule>
@@ -13,7 +14,8 @@
     </QueryBuilderColumns>
 </SfQueryBuilder>
 
-<button @onclick="ApplyFilter">Apply Filter</button>
+<button @onclick="ApplyFilter"><i class="fa-solid fa-filter"></i>Apply Filter</button>
+<button id="printbtn" @onclick="Print"><i class="fa-solid fa-print"></i>Print</button>
 
 <table border="1">
     <thead>
@@ -44,7 +46,7 @@
 </table>
 
 @code {
-    SfQueryBuilder<EmployeeDetails> queryBuilder;
+    SfQueryBuilder<EmployeeDetails>? queryBuilder;
     List<EmployeeDetails> Employees = new List<EmployeeDetails>();
     List<EmployeeDetails> FilteredEmployees = new List<EmployeeDetails>();
 
@@ -68,7 +70,7 @@
 
     private void ApplyFilter()
     {
-        var currentRules = queryBuilder.GetRules();
+        var currentRules = queryBuilder?.GetRules();
 
         if (currentRules == null)
         {
@@ -164,6 +166,11 @@
             _ => true
         };
     }
+
+    private async void Print()
+    {
+        await JS.InvokeVoidAsync("printTable");
+    }
 }
 
 <style>
@@ -205,5 +212,9 @@
 
         button:hover {
             background-color: #218838;
+        }
+
+        #printbtn{
+            background-color:darkred
         }
 </style>

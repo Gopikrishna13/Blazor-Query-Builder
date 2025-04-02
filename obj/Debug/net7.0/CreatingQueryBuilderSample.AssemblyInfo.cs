@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CreatingQueryBuilderSample")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d74a84e344675456ace3cafc87933e6b3bb7a7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+222c4e0ff6f0b1f65b13e39afb3077b9be1eefb1")]
 [assembly: System.Reflection.AssemblyProductAttribute("CreatingQueryBuilderSample")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CreatingQueryBuilderSample")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

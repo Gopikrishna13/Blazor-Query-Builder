@@ -67,6 +67,10 @@
               "target": "Package",
               "version": "[7.0.3, )"
             },
+            "Syncfusion.Blazor": {
+              "target": "Package",
+              "version": "[29.1.35, )"
+            },
             "Syncfusion.Blazor.QueryBuilder": {
               "target": "Package",
               "version": "[23.1.39, )"

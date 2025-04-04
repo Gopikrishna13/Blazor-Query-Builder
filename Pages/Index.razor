@@ -2,6 +2,10 @@
 @using CreatingQueryBuilderSample.Data
 @using CreatingQueryBuilderSample.Models
 @using Microsoft.EntityFrameworkCore
+@using System.Dynamic
+@using System.Collections.Generic
+@using System.Text
+
 @inject ApplicationDbContext DbContext
 @inject IJSRuntime JS
 
@@ -15,6 +19,17 @@
     </QueryBuilderColumns>
 </SfQueryBuilder>
 
+<div class="mb-3">
+    <label for="exportFormat">Export As:</label>
+    <select id="exportFormat" @bind="SelectedExportFormat">
+        <option value="">-- Select Format --</option>
+        <option value="CSV">CSV</option>
+        <option value="JSON">JSON</option>
+    </select>
+    <button class="btn btn-primary ms-2" @onclick="ExportData">Export</button>
+</div> 
+
+
 <h3>Select Columns to Display:</h3>
 @foreach (var column in AllColumns)
 {
@@ -27,6 +42,9 @@
 <button @onclick="AddSortField">+ Add Sort Field</button>
 <button @onclick="ApplySorting">Apply Sorting</button>
 
+<button @onclick="AddGroupField">+ Add Group Field</button>
+<button @onclick="ApplyGrouping">Apply Grouping</button>
+<button @onclick="ResetView">Reset View</button>
 <button id="printbtn" @onclick="Print"><i class="fa-solid fa-print"></i> Print</button>
 
 @* Sorting Fields *@
@@ -52,29 +70,96 @@
     }
 </div>
 
-<table border="1">
-    <thead>
-        <tr>
-            @foreach (var column in DisplayedColumns)
-            {
-                <th>@column.Label</th>
-            }
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var employee in FilteredEmployees)
-        {
+@* Grouping Fields *@
+<div>
+    @foreach (var group in GroupFields)
+    {
+        <div>
+            <select @bind="group.Field">
+                <option value="">-- Select Field --</option>
+                @foreach (var column in AllColumns)
+                {
+                    <option value="@column.Field">@column.Label</option>
+                }
+            </select>
+
+            <select @bind="group.AggregationFunction">
+                <option value="None">None</option>
+                <option value="Count">Count</option>
+                <option value="Sum">Sum</option>
+                <option value="Average">Average</option>
+                <option value="Min">Min</option>
+                <option value="Max">Max</option>
+            </select>
+
+            <button @onclick="() => RemoveGroupField(group)">❌ Remove</button>
+        </div>
+    }
+</div>
+
+@if (!IsGroupedView)
+{
+    <table border="1" id="printTable">
+        <thead>
             <tr>
                 @foreach (var column in DisplayedColumns)
                 {
-                    <td>@GetPropertyValue(employee, column.Field)</td>
+                    <th>@column.Label</th>
                 }
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var employee in FilteredEmployees)
+            {
+                <tr>
+                    @foreach (var column in DisplayedColumns)
+                    {
+                        <td>@FormatValue(GetPropertyValue(employee, column.Field), column)</td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <table border="1" id="printTable">
+        <thead>
+            <tr>
+                @foreach (var groupField in GroupFields.Where(g => !string.IsNullOrEmpty(g.Field)))
+                {
+                    <th>@AllColumns.FirstOrDefault(c => c.Field == groupField.Field)?.Label</th>
+                }
+                @foreach (var groupField in GroupFields.Where(g => g.AggregationFunction != "None" && !string.IsNullOrEmpty(g.Field)))
+                {
+                    <th>@groupField.AggregationFunction (@(AllColumns.FirstOrDefault(c => c.Field == groupField.Field)?.Label ?? groupField.Field))</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var group in GroupedData)
+            {
+                <tr>
+                    @foreach (var groupField in GroupFields.Where(g => !string.IsNullOrEmpty(g.Field)))
+                    {
+                        <td>@FormatGroupValue(group[groupField.Field], groupField.Field)</td>
+                    }
+                    @foreach (var groupField in GroupFields.Where(g => g.AggregationFunction != "None" && !string.IsNullOrEmpty(g.Field)))
+                    {
+                        var aggKey = $"{groupField.Field}_{groupField.AggregationFunction}";
+                        <td>@FormatGroupValue(group.ContainsKey(aggKey) ? group[aggKey] : null, groupField.Field, groupField.AggregationFunction)</td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+
 
 @code {
+    private string SelectedExportFormat { get; set; } = "";
     SfQueryBuilder<EmployeeDetails>? queryBuilder;
     List<EmployeeDetails> Employees = new List<EmployeeDetails>();
     List<EmployeeDetails> FilteredEmployees = new List<EmployeeDetails>();
@@ -84,6 +169,11 @@
 
     List<RuleModel> Rules = new List<RuleModel>();
     List<SortField> SortFields = new List<SortField>();
+    List<GroupField> GroupFields = new List<GroupField>();
+
+    // Grouping state
+    private bool IsGroupedView = false;
+    private List<Dictionary<string, object>> GroupedData = new List<Dictionary<string, object>>();
 
     protected override async Task OnInitializedAsync()
     {
@@ -99,23 +189,78 @@
         }
     }
 
+    private async void ExportData()
+    {
+        IEnumerable<IDictionary<string, object>> dataToExport = IsGroupedView ? GroupedData :
+      FilteredEmployees.Select(e => typeof(EmployeeDetails).GetProperties().ToDictionary(
+          p => p.Name, p => p.GetValue(e) ?? ""));
+
+        string content = "";
+        string mimeType = "";
+        string fileName = $"Export_{DateTime.Now:yyyyMMdd_HHmmss}";
+
+        switch (SelectedExportFormat)
+        {
+            case "CSV":
+                content = ConvertToCsv(dataToExport);
+                mimeType = "text/csv";
+                fileName += ".csv";
+                break;
+            case "JSON":
+                content = System.Text.Json.JsonSerializer.Serialize(dataToExport, new System.Text.Json.JsonSerializerOptions { WriteIndented = true });
+                mimeType = "application/json";
+                fileName += ".json";
+                break;
+            default:
+                return;
+        }
+
+        var bytes = Encoding.UTF8.GetBytes(content);
+        var base64 = Convert.ToBase64String(bytes);
+        var fileContent = $"data:{mimeType};base64,{base64}";
+
+        await JS.InvokeVoidAsync("downloadFile", fileName, fileContent);
+    }
+
+    private string ConvertToCsv(IEnumerable<IDictionary<string, object>> data)
+    {
+        var sb = new StringBuilder();
+
+        if (!data.Any()) return "";
+
+        var headers = data.First().Keys;
+        sb.AppendLine(string.Join(",", headers));
+
+        foreach (var row in data)
+        {
+            sb.AppendLine(string.Join(",", headers.Select(h => row[h]?.ToString()?.Replace(",", " ") ?? "")));
+        }
+
+        return sb.ToString();
+    }
+
+
     private void GenerateColumns()
     {
         AllColumns = typeof(EmployeeDetails).GetProperties()
             .Select(prop => new CustomQueryBuilderColumn
-                {
-                    Field = prop.Name,
-                    Label = prop.Name.Replace("_", " "),
-                    Type = GetColumnType(prop.PropertyType),
-                    Format = prop.PropertyType == typeof(DateTime) ? "MM-yyyy-dd" : null,
-                    IsSelected = true // Default: All columns are selected
-                }).ToList();
+            {
+                Field = prop.Name,
+                Label = prop.Name.Replace("_", " "),
+                Type = GetColumnType(prop.PropertyType),
+                Format = prop.PropertyType == typeof(DateTime) ? "MM-yyyy-dd" : null,
+                IsSelected = true
+            }).ToList();
     }
 
     private ColumnType GetColumnType(Type type)
     {
-        if (type == typeof(int) || type == typeof(decimal) || type == typeof(double)) return ColumnType.Number;
-        if (type == typeof(DateTime)) return ColumnType.Date;
+        if (type == typeof(int) || type == typeof(long) || type == typeof(decimal) || type == typeof(double) || type == typeof(float))
+            return ColumnType.Number;
+        if (type == typeof(DateTime) || type == typeof(DateTime?))
+            return ColumnType.Date;
+        if (type == typeof(bool) || type == typeof(bool?))
+            return ColumnType.Boolean;
         return ColumnType.String;
     }
 
@@ -160,7 +305,7 @@
         return employees.Where(e => CompareValues(property.GetValue(e), rule.Value, rule.Operator));
     }
 
-    private bool CompareValues(object fieldValue, object filterValue, string operation)
+    private bool CompareValues(object? fieldValue, object? filterValue, string? operation)
     {
         if (fieldValue == null || filterValue == null) return false;
 
@@ -179,9 +324,9 @@
                     "greaterthanorequal" => comparable.CompareTo(convertedFilterValue) >= 0,
                     "lessthan" => comparable.CompareTo(convertedFilterValue) < 0,
                     "lessthanorequal" => comparable.CompareTo(convertedFilterValue) <= 0,
-                    "contains" => fieldValue.ToString().Contains(filterValue.ToString(), StringComparison.OrdinalIgnoreCase),
-                    "startswith" => fieldValue.ToString().StartsWith(filterValue.ToString(), StringComparison.OrdinalIgnoreCase),
-                    "endswith" => fieldValue.ToString().EndsWith(filterValue.ToString(), StringComparison.OrdinalIgnoreCase),
+                    "contains" => fieldValue.ToString()?.Contains(filterValue.ToString() ?? "", StringComparison.OrdinalIgnoreCase) ?? false,
+                    "startswith" => fieldValue.ToString()?.StartsWith(filterValue.ToString() ?? "", StringComparison.OrdinalIgnoreCase) ?? false,
+                    "endswith" => fieldValue.ToString()?.EndsWith(filterValue.ToString() ?? "", StringComparison.OrdinalIgnoreCase) ?? false,
                     _ => true
                 };
             }
@@ -193,9 +338,57 @@
         return false;
     }
 
-    private object GetPropertyValue(EmployeeDetails employee, string propertyName)
+    private object? GetPropertyValue(EmployeeDetails employee, string propertyName)
     {
-        return typeof(EmployeeDetails).GetProperty(propertyName)?.GetValue(employee, null) ?? "";
+        return typeof(EmployeeDetails).GetProperty(propertyName)?.GetValue(employee, null);
+    }
+
+    private string FormatValue(object? value, CustomQueryBuilderColumn column)
+    {
+        if (value == null) return string.Empty;
+
+        if (column.Type == ColumnType.Date && DateTime.TryParse(value.ToString(), out var dateValue))
+        {
+            return dateValue.ToString(column.Format ?? "yyyy-MM-dd");
+        }
+
+        if (column.Type == ColumnType.Number)
+        {
+            if (decimal.TryParse(value.ToString(), out var decimalValue))
+            {
+                return decimalValue.ToString("N2");
+            }
+        }
+
+        return value.ToString() ?? string.Empty;
+    }
+
+    private string FormatGroupValue(object? value, string field, string? aggregation = null)
+    {
+        if (value == null) return string.Empty;
+
+        var column = AllColumns.FirstOrDefault(c => c.Field == field);
+        if (column != null)
+        {
+            if (column.Type == ColumnType.Date && DateTime.TryParse(value.ToString(), out var dateValue))
+            {
+                return dateValue.ToString(column.Format ?? "yyyy-MM-dd");
+            }
+
+            if (column.Type == ColumnType.Number)
+            {
+                if (decimal.TryParse(value.ToString(), out var decimalValue))
+                {
+                    return aggregation switch
+                    {
+                        "Count" => decimalValue.ToString("N0"),
+                        _ => decimalValue.ToString("N2")
+                    };
+                }
+            }
+        }
+
+        return value.ToString() ?? string.Empty;
     }
 
     private void AddSortField()
@@ -203,9 +396,110 @@
         SortFields.Add(new SortField { Field = "", Order = "asc" });
     }
 
+    private void AddGroupField()
+    {
+        GroupFields.Add(new GroupField { Field = "", AggregationFunction = "None" });
+    }
+
     private void RemoveSortField(SortField sortField)
     {
         SortFields.Remove(sortField);
+    }
+
+    private void RemoveGroupField(GroupField groupField)
+    {
+        GroupFields.Remove(groupField);
+    }
+
+    private void ApplyGrouping()
+    {
+        if (!GroupFields.Any() || GroupFields.All(g => string.IsNullOrEmpty(g.Field)))
+        {
+            IsGroupedView = false;
+            FilteredEmployees = Employees.ToList();
+            StateHasChanged();
+            return;
+        }
+
+        IsGroupedView = true;
+        GroupedData.Clear();
+
+        // Get the fields that actually have values
+        var validGroupFields = GroupFields.Where(g => !string.IsNullOrEmpty(g.Field)).ToList();
+
+        // Group the data
+        var groupedData = Employees
+            .GroupBy(e => string.Join("|", validGroupFields.Select(g => GetPropertyValue(e, g.Field)?.ToString() ?? "")))
+            .ToList();
+
+        foreach (var group in groupedData)
+        {
+            var resultItem = new Dictionary<string, object>();
+            var fieldValues = group.Key.Split('|');
+
+            // Add grouping fields
+            for (int i = 0; i < validGroupFields.Count; i++)
+            {
+                resultItem[validGroupFields[i].Field] = fieldValues[i];
+            }
+
+            // Add aggregations
+            foreach (var groupField in validGroupFields.Where(g => g.AggregationFunction != "None"))
+            {
+                var property = typeof(EmployeeDetails).GetProperty(groupField.Field);
+                if (property == null) continue;
+
+                var aggKey = $"{groupField.Field}_{groupField.AggregationFunction}";
+
+                switch (groupField.AggregationFunction)
+                {
+                    case "Count":
+                        resultItem[aggKey] = group.Count();
+                        break;
+                    case "Sum":
+                        resultItem[aggKey] = group.Sum(e => 
+                        {
+                            var val = property.GetValue(e);
+                            return val != null ? Convert.ToDecimal(val) : 0;
+                        });
+                        break;
+                    case "Average":
+                        resultItem[aggKey] = group.Average(e => 
+                        {
+                            var val = property.GetValue(e);
+                            return val != null ? Convert.ToDecimal(val) : 0;
+                        });
+                        break;
+                    case "Min":
+                        resultItem[aggKey] = group.Min(e => 
+                        {
+                            var val = property.GetValue(e);
+                            return val != null ? Convert.ToDecimal(val) : 0;
+                        });
+                        break;
+                    case "Max":
+                        resultItem[aggKey] = group.Max(e => 
+                        {
+                            var val = property.GetValue(e);
+                            return val != null ? Convert.ToDecimal(val) : 0;
+                        });
+                        break;
+                }
+            }
+
+            GroupedData.Add(resultItem);
+        }
+
+        StateHasChanged();
+    }
+
+    private void ResetView()
+    {
+        IsGroupedView = false;
+        GroupFields.Clear();
+        SortFields.Clear();
+        FilteredEmployees = Employees.ToList();
+        StateHasChanged();
     }
 
     private void ApplySorting()
@@ -218,7 +512,7 @@
 
         IOrderedEnumerable<EmployeeDetails>? sortedList = null;
 
-        foreach (var sort in SortFields)
+        foreach (var sort in SortFields.Where(s => !string.IsNullOrEmpty(s.Field)))
         {
             var propertyInfo = typeof(EmployeeDetails).GetProperty(sort.Field);
             if (propertyInfo == null) continue;
@@ -245,7 +539,7 @@
         StateHasChanged();
     }
 
-    private async void Print()
+    private async Task Print()
     {
         await JS.InvokeVoidAsync("printTable");
     }
@@ -260,9 +554,13 @@
         public string Field { get; set; } = "";
         public string Order { get; set; } = "asc";
     }
+
+    class GroupField
+    {
+        public string Field { get; set; } = "";
+        public string AggregationFunction { get; set; } = "None";
+    }
 }
-
-
 
 <style>
     table {
@@ -299,6 +597,7 @@
         border: none;
         cursor: pointer;
         border-radius: 5px;
+        margin-right: 5px;
     }
 
         button:hover {
@@ -309,7 +608,18 @@
         background-color: darkred;
     }
 
-    #options{
-        background-color:orangered;
+    #options {
+        background-color: orangered;
+    }
+
+    label {
+        margin-right: 15px;
+        display: inline-block;
+        margin-bottom: 10px;
+    }
+
+    select {
+        padding: 5px;
+        margin-right: 5px;
     }
 </style>

@@ -11,6 +11,7 @@
           "Microsoft.EntityFrameworkCore.Design": "7.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.3",
+          "Syncfusion.Blazor": "29.1.35",
           "Syncfusion.Blazor.QueryBuilder": "23.1.39",
           "Syncfusion.Blazor.Themes": "23.1.39",
           "Syncfusion.Blazor.TreeGrid": "23.1.39"
@@ -421,6 +422,7 @@
           }
         }
       },
+      "Syncfusion.Blazor/29.1.35": {},
       "Syncfusion.Blazor.Buttons/23.1.39": {
         "dependencies": {
           "Syncfusion.Blazor.Core": "23.1.39"
@@ -1216,6 +1218,13 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "Syncfusion.Blazor/29.1.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uJq0cILnf0HaVXOdeVCjaMmszJKz2OF9lSzRmWIN+Q66Xly2Be4NnEcOAHRmbF0jB7Q/QYLs5sNzrIhqR74cYw==",
+      "path": "syncfusion.blazor/29.1.35",
+      "hashPath": "syncfusion.blazor.29.1.35.nupkg.sha512"
     },
     "Syncfusion.Blazor.Buttons/23.1.39": {
       "type": "package",

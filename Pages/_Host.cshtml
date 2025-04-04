@@ -16,6 +16,9 @@
     <link href="_content/Syncfusion.Blazor.Themes/bootstrap5.css" rel="stylesheet" />
     <script src="_content/Syncfusion.Blazor.Core/scripts/syncfusion-blazor.min.js" type="text/javascript"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="_content/Syncfusion.Blazor/styles/bootstrap5.css" rel="stylesheet" />
+    <script src="_content/Syncfusion.Blazor/scripts/syncfusion-blazor.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
 
     <script>
@@ -28,6 +31,28 @@
     location.reload();
     }
     </script>
+
+
+    <script>
+        window.drawChart = (chartType, chartData, options) => {
+            var ctx = document.getElementById('chartCanvas').getContext('2d');
+            new Chart(ctx, {
+                type: chartType,
+                data: chartData,
+                options: options
+            });
+        }
+    </script>
+
+    <script>
+        window.downloadFile = (fileName, content) => {
+            const a = document.createElement('a');
+            a.href = content;
+            a.download = fileName;
+            a.click();
+        };
+    </script>
+
 
 </head>
 <body>
